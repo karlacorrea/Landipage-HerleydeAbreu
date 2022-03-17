@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>In Memorian - professora Herley de Abreu Silva Batista</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="main.css"
+</head>
+
+    <body>
+           
+        <section>
+            <div class="set">
+                <div> <img src="img\folhas (9).png"></div>
+                <div> <img src="img\folhas (10).png"></div>
+                <div> <img src="img\folhas (11).png"></div>
+                <div> <img src="img\folhas (12).png"></div>
+                <div> <img src="img\folhas (13).png"></div>
+                <div> <img src="img\folhas (14).png"></div>
+                <div> <img src="img\folhas (15).png"></div>
+                <div> <img src="img\folhas (16).png"></div>         
+            </div>
+        </section>
+        <div> <
+        <div class="cursor"></div>
+        <script>
+            var bolinha = document.querySelector('.cursor');
+
+            document.addEventListener('mousemove', function (m) {
+                let xPos = m.pageX - 15;
+                let yPos = m.pageY - 15;
+
+                bolinha.style.left = xPos + 'px';
+                bolinha.style.top = yPos + 'px';
+                               
+            });
+
+            //bolinha.addEventListener('click', function () {
+               // this.classList.add('.cursor-expand');
+
+                //setTimeout function(){
+                  //  this.classList.remove('.cursor-expand');
+                    
+               // }, 400;
+            //});
+
+        </script>
+
+        
+    </body>
+</html>

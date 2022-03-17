@@ -1,0 +1,84 @@
+@keyframes rotateCursor {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes expandCursor {
+    0%{
+        opacity 0;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        transform: scale(1);
+
+    }
+    50%{
+        opacity: 1;
+        border-radius: 25%;
+    }
+    100%{
+        opacity: 0;
+        border-radius: 0%;
+        width: 60px;
+        height: 60px;
+        transform: scale(2);
+    }
+}
+
+body {
+    background-image: url("img/0001.png");
+    margin: 0;
+    padding: 0%;
+    cursor: none;
+
+}
+
+.cursor {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    background: #FF7555;
+    transition: all 0.2s ease-out;
+    animation: rotateCursor 3s linear infinite;
+}
+
+.cursor:before {
+    content: '';
+    width: 60px;
+    height: 60px;
+    display: block;
+    border: 3px solid #fff;
+    background: transparent;
+    position: absolute;
+    top: -15px;
+    left: -15px
+    opacity: 0.8;
+    animation: rotateCursor 3s infinite;
+}
+
+
+ .cursor:after {
+    content:'';
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    border: 1px solid #AD9A0A;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    box-sizing: border-box;
+        
+}
+
+.cursor-expand {
+    &::before{
+        animation: expandCursor 0.4s ease-out forwards;
+    }
+
+}

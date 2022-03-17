@@ -1,0 +1,115 @@
+body
+{
+    margin:0;
+    padding: 0%;
+    overflow: hidden;
+}
+section
+{
+    width: 100%;
+    height: 100%;
+    background: radial-gradiente(#333, #000);
+}
+.set
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.set div
+{
+    position: absolute;
+    display: block;
+}
+.set div:nth-child(1)
+{
+    left: 5%;
+    animation: animate 30s linear infinite;
+}
+.set div:nth-child(2)
+{
+    left: 70%;
+    animation: animate 90s linear infinite;
+}
+.set div:nth-child(3)
+{
+    left: 35%;
+    animation: animate 35s linear infinite;
+}
+.set div:nth-child(4)
+{
+    left: 0%;
+    animation: animate 25s linear infinite;
+}
+.set div:nth-child(5)
+{
+    left: 68%;
+    animation: animate 55s linear infinite;
+}
+.set div:nth-child(6)
+{
+    left: 25%;
+    animation: animate 38s linear infinite;
+}
+.set div:nth-child(7)
+{
+    left: 45%;
+    animation: animate 28s linear infinite;
+}
+.set div:nth-child(8)
+{
+    left: 50%;
+    animation: animate 49s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        opacity: 0;
+        top: -50%;
+    }
+    10%
+    {
+        opacity: 1;
+    }
+    20%
+    {
+        transform: translateX(-20px) rotate(20deg);
+    }
+    40%
+    {
+        transform: translateX(20px) rotate(15deg);
+    }
+    60%
+    {
+        transform: translateX(-20px) rotate(25deg);
+    }
+    70%
+    {
+        transform: translateX(20px) rotate(10deg);
+    }
+    86%
+    {
+        transform: translateX(20px) rotate(25deg);
+    }
+    75%
+    {
+        transform: translateX(-20px) rotate(105deg);
+    }
+    85%
+    {
+        transform: translateX(10px) rotate(55deg);
+    }
+    90%
+    {
+        transform: translateX(-10px) rotate(45deg);
+    }
+    100%
+    {
+        opacity: 0;
+        top: 110%;
+    }
+}
