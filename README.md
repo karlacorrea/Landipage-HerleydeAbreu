@@ -7,7 +7,7 @@ Página feita para homenagear a professora que salvou muitas crianças, porém m
 <h3 align="center">
    <img alt="A Mulher Heroína" title="#logo" src="https://github.com/karlacorrea/Landipage-HerleydeAbreu/blob/main/img/tela.gif">
    <br><br>
-   <b>Foi feita uma simples que guarda lembranças, recortes de jornais</b>  
+   <b>Foi feita uma simples página em homegem a professora que salvou seus alunos</b>  
 <b> </b>
    <br><br>
  
