@@ -1,4 +1,4 @@
-# Landipage "Profº Herley de Abreu Silva"
+# Landipage "Profª Herley de Abreu Silva"
 Participação para o desafio "Mulheres que inspiram".
 
 Página feita para homenagear a professora que salvou muitas crianças, porém morreu salvando vidas, mulher, mãe professora, uma heroína!
